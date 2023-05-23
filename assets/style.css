@@ -1,0 +1,72 @@
+body {
+    background-image: url(/assets/Rectangle\ 75.png);    
+}
+nav {
+    text-align: center;
+    margin-top: 45px;
+}
+.menu {
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed', Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+
+}
+#mainmenu .menu:hover {
+    text-decoration: underline #0d302c;
+    
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 76px;
+    height: 42px;
+    left: 360px;
+    top: 35px;
+}
+
+h2 {
+    position: absolute;
+    width: 654px;
+    height: 175px;
+    left: 654px;
+    top: 200px;
+
+    font-family: 'Raleway', 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 235px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.6px;
+    color: #0d302c;
+}
+
+
+.description {
+position: absolute;
+align-items: center;
+width: 426px;
+height: 28px;
+left: 747px;
+top: 500px;
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28 px;
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.6px;
+color: black;
+}
